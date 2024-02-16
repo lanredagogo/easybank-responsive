@@ -70,7 +70,7 @@ body {
 
    .hero__img--mockup {
        position: absolute;
-       top: -180px;
+       top: -100px;
        left: 0px;
    }
 
@@ -118,10 +118,15 @@ body {
    h3 {
     font-weight: 300;
     font-size: 1.7rem;
+    margin: 0.6em;
    }
 
    .feature__banking {
       text-align: center;
+   }
+
+   .feature__banking p {
+       margin-bottom: 2em;
    }
 
    .feature__banking--logo {
@@ -151,7 +156,7 @@ body {
    .latest__cards {
        display: flex;
         flex-flow: column ;
-       gap: 30px;
+       gap: 40px;
    }
 
    .latest__cards--item {
