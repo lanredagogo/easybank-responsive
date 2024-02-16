@@ -51,6 +51,16 @@ header {
     flex-wrap: wrap;
 }
 
+.nav__menu a {
+    color: hsl(233, 8%, 62%);
+    text-decoration: none;
+}
+
+.nav__menu a:hover {
+    color: hsla(233, 8%, 62%, 0.72);
+        text-decoration: underline;
+}
+
 .btn {
     padding: 0.9em 2em;
     border-radius: 100px;
@@ -195,6 +205,17 @@ h2 {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
 
+}
+
+.nav__menu1 a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__menu1 a:hover {
+    color: rgba(255, 255, 255, 0.677);
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .footer .nav__menu {
@@ -411,6 +432,17 @@ h2 {
        display: grid;
        grid-template-columns: repeat(1, 1fr);
 
+   }
+
+   .nav__menu1 a {
+    color: white;
+    text-decoration: none;
+   }
+
+   .nav__menu1 a:hover {
+       color: rgba(255, 255, 255, 0.677);
+       text-decoration: underline;
+       cursor: pointer;
    }
 
    
